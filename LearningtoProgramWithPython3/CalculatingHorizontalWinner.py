@@ -17,3 +17,6 @@ def winner(current_game):
         if row.count(row[0]) == len(row) and row[0] != 0:
             print("winner!!")
 winner(game)
+
+from  Functions import addition  # there will be a  __pycache__ fold
+print(addition(2,3))             # 5
